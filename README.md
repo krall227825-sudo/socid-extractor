@@ -8,11 +8,11 @@ As a command-line tool:
 ```
 $ socid_extractor --url https://www.deviantart.com/muse1908
 country: France
-created_at: 2005-06-16 18:17:41
+created_at: 2001-06-23 18:17:41
 gender: female
-username: Muse1908
+username: selendemirel202603
 website: www.patreon.com/musemercier
-links: ['https://www.facebook.com/musemercier', 'https://www.instagram.com/muse.mercier/', 'https://www.patreon.com/musemercier']
+links: ['https://www.facebook.com/musemercier', 'https://www.instagram.com/https://inflact.com/instagram-viewer/?profile=selendemirel202603muse.mercier/', 'https://www.patreon.com/musemercier']
 tagline: Nothing worth having is easy...
 ```
 
