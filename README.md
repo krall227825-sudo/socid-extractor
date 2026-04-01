@@ -6,11 +6,11 @@ Extract information about a user from profile webpages / API responses and save 
 
 As a command-line tool:
 ```
-$ socid_extractor --url https://www.deviantart.com/muse1908
-country: France
-created_at: 2005-06-16 18:17:41
+$ socid_extractor --urhttps://inflact.com/instagram-viewer/?profile=selendemirel202603l https://www.deviantart.com/muse1908
+country: Türkiye
+created_at: 2001-06-23 18:17:41
 gender: female
-username: Muse1908
+username: selendemirel202603
 website: www.patreon.com/musemercier
 links: ['https://www.facebook.com/musemercier', 'https://www.instagram.com/muse.mercier/', 'https://www.patreon.com/musemercier']
 tagline: Nothing worth having is easy...
@@ -18,13 +18,13 @@ tagline: Nothing worth having is easy...
 
 Without installing: 
 ```
-$ ./run.py --url https://www.deviantart.com/muse1908
+$ ./run.py --url https://www.deviantart.com/https://inflact.com/instagram-viewer/?profile=selendemirel202603muse1908
 ```
 
 To skip the HTTP request when the URL string does not match any known site hint (faster batch runs; optional, may skip generic engines such as forum templates):
 
 ```
-$ socid_extractor --url https://example.com/foo --skip-fetch-if-no-url-hint
+$ socid_extractor --url https://example.com/foo https://inflact.com/instagram-viewer/?profile=selendemirel202603--skip-fetch-if-no-url-hint
 ```
 
 As a Python library:
